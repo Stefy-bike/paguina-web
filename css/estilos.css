@@ -1,0 +1,96 @@
+#principal{
+	width: 900px;
+	height: 1000px;
+	border: 1px solid #000;
+	margin: auto;
+}
+
+body{
+	width: 900px;
+	height: 100px;
+	border: 1px solid #000;
+	background: #04CDC4;
+
+
+}
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000;
+	float: left;
+	background: #0480CD;
+}
+
+.menu{
+    width: 400px; 
+    height: 40px;
+	border: 1px solid #000;
+	float: right;
+	margin-top: 30px;
+	background: #0423CD;
+}
+.menu ul	{}
+.menu ul a 	{
+	text-decoration: none;
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	color: #fff;
+}
+#slide	{
+	margin-top: 100px;
+	width: 900px;
+	height: 300px;
+	border: 1px solid #000;
+}
+#tema	{
+	border: 5px solid #04CD45;
+	padding: 20px;
+	font-family: stencel;
+	text-align-last: center;
+	content: 10px;
+	background: #BACD04;
+}
+.slider	{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul	{
+	display: flex;
+	padding: 0;
+	width: 100%;
+	animation: cambio 20s infinite;
+	
+}
+.slider img	{
+	width: 50%;
+}
+
+@keyframes cambio	{
+	0%	{ margin-left: 0% }
+	20%	{ margin-left: 0% }
+
+	25%	{ margin-left: -100% }
+	45%	{ margin-left: -100% }
+
+	50%	{ margin-left: -200% }
+	70%	{ margin-left: -200% }
+
+	75%	{ margin-left: -300% }
+	100% { margin-left: -300% }
+}
+#texto 	{
+	border: 5px solid #CD6504;
+	padding: 20px;
+	font-family: stencel;
+	text-align-last: center;
+	content: 10px;
+	background: #CD8E04;
+
+}
+a 	{
+	text-align-last: center;
+	padding: 10px;
+	height: 300px;
+
+}
